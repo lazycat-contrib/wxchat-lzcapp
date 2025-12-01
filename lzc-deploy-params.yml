@@ -1,0 +1,111 @@
+params:
+  - id: access_password
+    type: string
+    name: "the access password"
+    description: "the access password you want to set for login"
+
+  - id: ai_enabled
+    type: bool
+    name: "enable ai"
+    description: "whether to enable ai"
+    default_value: false
+
+  - id: ai_chat_base_url
+    type: string
+    name: "ai chat base url"
+    description: "the base url of ai chat，such as https://api.example.com/v1/chat/completions"
+    optional: true
+
+  - id: ai_chat_api_key
+    type: string
+    name: "ai chat api key"
+    description: "the api key of ai chat"
+    optional: true
+
+  - id: ai_chat_chat_model
+    type: string
+    name: "ai chat model"
+    description: "the model of ai chat"
+    optional: true
+
+  - id: ai_rate_limit
+    type: string
+    name: "ai rate limit"
+    description: "the rate limit of ai per minute"
+    default_value: "30"
+
+  - id: image_gen_enabled
+    type: bool
+    name: "enable image generation"
+    description: "whether to enable image generation"
+    default_value: false
+
+  - id: ai_image_base_url
+    type: string
+    name: "ai image base url"
+    description: "the base url of ai image，such as https://api.example.com/v1/images/generations"
+    optional: true
+
+  - id: ai_image_api_key
+    type: string
+    name: "ai image api key"
+    description: "the api key of ai image"
+    optional: true
+
+  - id: ai_image_model
+    type: string
+    name: "ai image model"
+    description: "the model of ai image"
+    optional: true
+
+  - id: image_rate_limit
+    type: string
+    name: "ai image rate limit"
+    description: "the rate limit of ai image per minute"
+    default_value: "10"
+
+locales:
+  zh:
+    access_password:
+      name: "访问密码"
+      description: "应用访问密码"
+
+    ai_enabled:
+      name: "是否开启AI聊天"
+      description: "是否开启AI聊天"
+
+    ai_chat_base_url:
+      name: "AI 聊天接口地址 (Base URL)"
+      description: "AI 聊天服务的 Base URL 地址，例如https://api.example.com/v1/chat/completions"
+
+    ai_chat_api_key:
+      name: "AI 聊天 API Key"
+      description: "AI 聊天服务的 API 密钥"
+
+    ai_chat_chat_model:
+      name: "AI 聊天模型"
+      description: "用于 AI 聊天的模型名称"
+
+    ai_rate_limit:
+      name: "AI 聊天频率限制"
+      description: "每分钟允许的 AI 聊天请求次数"
+
+    image_gen_enabled:
+      name: "是否开启 AI 绘图"
+      description: "是否开启 AI 图像生成功能"
+
+    ai_image_base_url:
+      name: "AI 绘图接口地址 (Base URL)"
+      description: "AI 绘图服务的 Base URL 地址，例如https://api.example.com/v1/images/generations"
+
+    ai_image_api_key:
+      name: "AI 绘图 API Key"
+      description: "AI 绘图服务的 API 密钥"
+
+    ai_image_model:
+      name: "AI 绘图模型"
+      description: "用于 AI 绘图的模型名称"
+
+    image_rate_limit:
+      name: "AI 绘图频率限制"
+      description: "每分钟允许的 AI 绘图请求次数"
