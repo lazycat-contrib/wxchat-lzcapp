@@ -1,5 +1,5 @@
 min_os_version: 1.3.8
-name: 微信文件传输助手
+name: 文件传输助手
 package: community.lazycat.app.wxchat
 version: 5.0.0
 description: "类微信文件传输助手，能像微信聊天一样在手机、电脑、平板之间快速互传文件、图片、文字和链接。需要的话还可接入大模型做 AI 聊天/ 画图。"
@@ -77,8 +77,8 @@ services:
 
 locales:
   zh:
-    name: "微信文件传输助手"
+    name: "文件传输助手"
     description: "类微信文件传输助手，能像微信聊天一样在手机、电脑、平板之间快速互传文件、图片、文字和链接。需要的话还可接入大模型做 AI 聊天/ 画图。 "
   en:
-    name: "Wechat Transfer"
+    name: "File Transfer"
     description: "WeChat-like file transfer assistant, which can quickly transfer files, pictures, text, and links between mobile phones, computers, and tablets like WeChat chat. If needed, you can also access the large model for AI chat/drawing."
