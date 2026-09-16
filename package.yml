@@ -1,0 +1,14 @@
+package: community.lazycat.app.wxchat
+version: 5.0.0
+name: 文件传输助手
+description: "类微信文件传输助手，能像微信聊天一样在手机、电脑、平板之间快速互传文件、图片、文字和链接。需要的话还可接入大模型做 AI 聊天/ 画图。"
+min_os_version: "1.5.0"
+homepage: https://github.com/DEKVIW/docker-wxchat
+author: DEKVIW
+locales:
+  zh:
+    description: "类微信文件传输助手，能像微信聊天一样在手机、电脑、平板之间快速互传文件、图片、文字和链接。需要的话还可接入大模型做 AI 聊天/ 画图。"
+    name: 文件传输助手
+  en:
+    description: "WeChat-like file transfer assistant, which can quickly transfer files, pictures, text, and links between mobile phones, computers, and tablets like WeChat chat. If needed, you can also access the large model for AI chat/drawing."
+    name: File Transfer
